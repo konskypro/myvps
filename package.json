@@ -1,14 +1,11 @@
 {
-  "name": "shopkun",
+  "name": "myvps",
   "version": "1.0.0",
-  "description": "ShopKun Social",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "deploy": "wrangler deploy"
   },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3"
+  "devDependencies": {
+    "wrangler": "^4.0.0"
   }
 }
